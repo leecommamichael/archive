@@ -10,7 +10,10 @@ environment:
 dependencies:
   crypto: ^3.0.3
   path: ^1.8.0
-  pointycastle: ^3.7.3
+  pointycastle:
+    git: https://github.com/leecommamichael/pc-dart
+
+publish_to: none
 
 dev_dependencies:
   http: ^1.1.0
